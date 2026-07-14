@@ -61,3 +61,9 @@ body{
     cursor: pointer;
     display: none;
 }
+.correct{
+    background: #0eeb84;
+}
+.incorrect{
+    background: red;
+}
