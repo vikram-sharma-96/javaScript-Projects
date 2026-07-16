@@ -47,9 +47,12 @@ body{
     cursor: pointer;
     transition:all 0.3s;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: whitesmoke;
+}
+.btn:disabled{
+    cursor: no-drop;
 }
 #next{
     background-color: rgb(28, 63, 51);
