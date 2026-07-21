@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(10, 51, 87);
+}
+.box{
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 300px auto;
+    max-width: 500px;
+    width: 90%;
+    border: 2px solid rgb(239, 228, 228);
+
+    display: flex;
+    align-items: center;
+    
+}
