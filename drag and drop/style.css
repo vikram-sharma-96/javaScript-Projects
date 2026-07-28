@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(37, 84, 150);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left,#right{
+    width: 300px;
+    min-height: 400px;
+    border: 2px dashed rgb(18, 89, 67);
+    margin: 30px;
+}
+.list{
+    background: rgb(10, 94, 63);
+    height: 40px;
+    margin: 30px;
+    color: #123b34;
+    display:flex;
+    align-items: center;
+    cursor: grab;
+}
